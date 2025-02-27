@@ -25,7 +25,7 @@ export default function App() {
           ),
         }} component={UserBalanceScreen}  />
         <Tab.Screen name='Profile' options={{
-          tabBarIcon: ({ color }) => (
+          tabBarIcon: ({ color }) => (    
             <AntDesign name="profile" size={24} color={color} />
           ),
         }} component={ProfileScreen}  />
